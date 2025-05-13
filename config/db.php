@@ -3,8 +3,8 @@
 return [
     'class' => 'yii\db\Connection',
     'dsn' => 'mysql:host=localhost;dbname=tests',
-    'username' => 'wptest',
-    'password' => 'base-4WP-tests',
+    'username' =>'',
+    'password' => '',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
