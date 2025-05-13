@@ -1,0 +1,20 @@
+CREATE TABLE `contacts` (
+  `c_id` int unsigned NOT NULL AUTO_INCREMENT,
+  `c_name` varchar(150) DEFAULT NULL,
+  `c_surname` varchar(150) DEFAULT NULL,
+  PRIMARY KEY (`c_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `deals` (
+  `d_id` int NOT NULL AUTO_INCREMENT,
+  `d_name` varchar(250) DEFAULT NULL,
+  `d_sum` float unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`d_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+CREATE TABLE `deals` (
+  `d_id` int NOT NULL AUTO_INCREMENT,
+  `d_name` varchar(250) DEFAULT NULL,
+  `d_sum` float unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`d_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
